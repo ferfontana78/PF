@@ -1,0 +1,27 @@
+.padreflex {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.grande{
+	width: 200px;
+	height: 150px;
+}
+
+.fotosvertical {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}	
+
+.lugaresflex {
+	display: flex;
+	flex-direction: center;
+	flex-wrap: wrap;
+    justify-content: space-around;
+    border: 10px solid gray; 
+}

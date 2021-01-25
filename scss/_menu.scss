@@ -1,0 +1,57 @@
+
+/* Barra de navegación */
+ul {
+	justify-content: space-between;
+	background-color: #587DF6;
+	height: 40px;
+	display: flex;
+	border-bottom: 1px solid #A607F8;
+
+}	
+
+/* Items principales del menú */
+ul .item-menu{
+    padding: 10px 50px;
+}
+ul li a{
+    text-decoration: none;
+    color: #0B0B0B; 
+}
+li:hover{
+    background-color:#ADAAAA;
+}
+
+li {
+    flex: 1;
+    font-family: arial;
+    display: flex;
+    justify-content: center;
+    color: #0A0000;
+    font-size: 15px;
+    text-decoration: none;
+    align-items: center;
+    position: relative;
+}
+
+
+/* Sub-menú */
+ul ul{
+    position: absolute;
+    display: none;
+    background-color: #587DF6;
+    top: 40px;
+    z-index: 1;
+	
+	ul ul li {
+
+        display: block;
+        margin: 5px 0;
+    }
+}
+/* Abrir sub-menu */
+ul li:hover ul {
+    display: block;
+    height: auto;
+    width: 150px;
+    text-align: center;
+}

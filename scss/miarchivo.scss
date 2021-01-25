@@ -1,0 +1,73 @@
+$color-primario:#F20F0F;
+$color-secundario: #F60B32;
+$color-texto: #020202;
+
+@import "marco";
+@import "menu";
+@import "fotos";
+@import "parrafos";
+@import "grilla";
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1{
+	color:$color-secundario;
+	text-align: center;
+}
+
+h2{
+	color:$color-primario;
+	text-align: center;
+}
+
+h4{
+	color: $color-texto;	
+}
+
+h5{
+    color: $color-primario;
+}
+section article{
+	background-color: #F9FEFF;
+}
+
+body{
+	background-color: #FCF8F8;
+}
+
+legend{
+	color: #0A0A0A
+}
+
+div{
+	.club{
+	  text-align: center;
+	  padding-left: 10px;
+	  transition: height 2s;
+	  .club:hover{
+		font-size: 17px;
+	  }
+	}
+  }
+
+@media only screen and (min-width: 1024px) {
+
+	.body{
+
+		background-color: #000000;
+	}
+}
+
+div .carrusel {
+	width: 50%;	
+}
+
+@media (max-width: 576px) {
+	body { 
+		background-color: #B010FA
+	}
+}
